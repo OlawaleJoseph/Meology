@@ -3,10 +3,10 @@ import * as mealApi from '../../api/mealApi';
 
 export const loadMealsSuccess = meals => ({ type: types.SET_MEALS, meals });
 
-export function loadMeals(id) {
+export function loadMeals(searchTerm) {
   return async dispatch => {
     try {
-      const data = await mealApi.getMeals(id);
+      const data = await mealApi.getMeals(searchTerm);
       const { meals } = data;
       if (meals) {
         const newMeals = meals.map(item => {
