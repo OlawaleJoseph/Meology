@@ -1,4 +1,5 @@
 import React from 'react';
+import SearchTerm from '../redux/actions/searchTermAction';
 
 const SearchForm = () => {
   const searchValue = React.useRef('');
