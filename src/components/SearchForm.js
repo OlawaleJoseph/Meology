@@ -9,6 +9,8 @@ const SearchForm = ({ setSearchTerm }) => {
     searchValue.current.focus();
   }, []);
 
+  const handleChange = () => setSearchTerm(searchValue.current.value);
+
   return (
     <section className="section search">
       <form className="search-form">
@@ -20,6 +22,7 @@ const SearchForm = ({ setSearchTerm }) => {
               name="name"
               id="name"
               ref={searchValue}
+              onChange={handleChange}
             />
           </label>
         </div>
