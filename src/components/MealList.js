@@ -6,4 +6,5 @@ const MealList = () => (
   </section>
 );
 
+const mapStateToProps = ({ SearchTerm, Meals, Loading }) => ({ SearchTerm, Meals, Loading });
 export default MealList;
