@@ -5,7 +5,7 @@ export default function About() {
     <section className="section about-section">
       <h1 className="section-title">about us</h1>
       <p>
-        Hi, I&apos;m Somoye Ayotunde based in Lagos. I&apos;m a
+        Hi, I&apos;m Somoye Ayotunde. I&apos;m a
         {' '}
         <strong>Software Engineer</strong>
         {' '}
