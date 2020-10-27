@@ -26,4 +26,8 @@ const SearchForm = () => {
   );
 };
 
+const mapDispatchToProps = dispatch => ({
+  setSearchTerm: term => dispatch(SearchTerm(term)),
+});
+
 export default SearchForm;
