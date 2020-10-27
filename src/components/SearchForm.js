@@ -1,4 +1,5 @@
 import React from 'react';
+import { connect } from 'react-redux';
 import SearchTerm from '../redux/actions/searchTermAction';
 
 const SearchForm = () => {
@@ -30,4 +31,4 @@ const mapDispatchToProps = dispatch => ({
   setSearchTerm: term => dispatch(SearchTerm(term)),
 });
 
-export default SearchForm;
+export default connect(null, mapDispatchToProps)(SearchForm);
