@@ -7,11 +7,17 @@ import { loadMeals } from '../redux/actions/mealsAction';
 
 const MealList = ({
   Meals, Loading, SearchTerm, setLoadingStatus, loadMeals,
-}) => (
-  <section className="section">
-    <h2 className="section-title">Meals</h2>
-  </section>
-);
+}) => {
+  useEffect(() => {
+    setLoadingStatus(true);
+    loadMeals(SearchTerm);
+    setLoadingStatus(false);
+  }, [loadMeals, SearchTerm, setLoadingStatus]);
+
+    <section className="section">
+      <h2 className="section-title">Meals</h2>
+    </section>;
+};
 
 MealList.propTypes = {
   SearchTerm: PropTypes.string.isRequired,
