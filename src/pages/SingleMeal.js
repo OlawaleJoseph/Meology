@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
+import { useParams, Link } from 'react-router-dom'
 import setLoadingStatus from '../redux/actions/loadingAction';
 import { loadMeals } from '../redux/actions/mealsAction';
 
