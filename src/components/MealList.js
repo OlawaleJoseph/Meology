@@ -1,4 +1,5 @@
 import React from 'react';
+import { connect } from 'react-redux';
 import setLoadingStatus from '../redux/actions/loadingAction';
 import { loadMeals } from '../redux/actions/mealsAction';
 
@@ -12,4 +13,4 @@ const mapStateToProps = ({ SearchTerm, Meals, Loading }) => ({ SearchTerm, Meals
 
 const mapDispatchToProps = { setLoadingStatus, loadMeals };
 
-export default MealList;
+export default connect(mapStateToProps, mapDispatchToProps)(MealList);
