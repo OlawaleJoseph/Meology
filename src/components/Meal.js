@@ -6,15 +6,15 @@ export default function Meal({
   image, name, id, info, area,
 }) {
   return (
-    <article className="cocktail">
+    <article className="meal">
       <div className="img-container">
         <img src={image} alt={name} />
       </div>
-      <div className="cocktail-footer">
+      <div className="meal-footer">
         <h3>{name}</h3>
         <h4>{area}</h4>
         <p>{info}</p>
-        <Link to={`/cocktail/${id}`} className="btn btn-primary btn-details">
+        <Link to={`/meal/${id}`} className="btn btn-primary btn-details">
           details
         </Link>
       </div>
