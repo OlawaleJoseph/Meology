@@ -3,7 +3,9 @@ import { connect } from 'react-redux';
 import setLoadingStatus from '../redux/actions/loadingAction';
 import { loadMeals } from '../redux/actions/mealsAction';
 
-const SingleMeal = () => (
+const SingleMeal = ({
+  meal, loading, setLoadingStatus, loadMeals,
+}) => (
   <div />
 );
 
