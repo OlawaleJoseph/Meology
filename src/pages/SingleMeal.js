@@ -4,4 +4,6 @@ const SingleMeal = () => (
   <div />
 );
 
+const mapStateToProps = ({ meal, loading }) => ({ meal, loading });
+
 export default SingleMeal;
