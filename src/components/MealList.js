@@ -10,4 +10,6 @@ const MealList = () => (
 
 const mapStateToProps = ({ SearchTerm, Meals, Loading }) => ({ SearchTerm, Meals, Loading });
 
+const mapDispatchToProps = { setLoadingStatus, loadMeals };
+
 export default MealList;
