@@ -1,4 +1,6 @@
 import React from 'react';
+import setLoadingStatus from '../redux/actions/loadingAction';
+import { loadMeals } from '../redux/actions/mealsAction';
 
 const MealList = () => (
   <section className="section">
@@ -7,4 +9,5 @@ const MealList = () => (
 );
 
 const mapStateToProps = ({ SearchTerm, Meals, Loading }) => ({ SearchTerm, Meals, Loading });
+
 export default MealList;
