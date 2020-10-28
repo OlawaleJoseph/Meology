@@ -17,11 +17,11 @@ const MealList = ({
     setLoadingStatus(true);
     loadMeals(SearchTerm);
     setLoadingStatus(false);
-  }, [loadMeals, SearchTerm, setLoadingStatus]);
+  }, [SearchTerm]);
 
-  if (Loading) return <LoadingBar />;
+  if (Loading || (Meals && Meals.length < 1)) return <LoadingBar />;
 
-  if (Meals.length < 1) {
+  if (!Meals) {
     return (
       <h2 className="section-title">no meals matched your search criteria</h2>
     );
