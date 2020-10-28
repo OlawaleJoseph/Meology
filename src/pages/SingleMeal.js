@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { useParams, Link } from 'react-router-dom';
 import LoadingBar from '../components/Loading';
 import setLoadingStatus from '../redux/actions/loadingAction';
-import { loadMeal } from '../redux/actions/mealAction';
+import { loadMeal, loadMealSuccess } from '../redux/actions/mealAction';
 
 const SingleMeal = ({
   Meal, Loading, setLoadingStatus, loadMeal,
