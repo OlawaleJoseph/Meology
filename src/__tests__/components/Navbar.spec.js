@@ -5,7 +5,7 @@ import { createMemoryHistory } from 'history';
 import Navbar from '../../components/Navbar';
 
 describe('Navbar Snapshot', () => {
-  it('builds navbar correctly with search and meallist', () => {
+  it('builds navbar correctly', () => {
     const tree = renderer.create(
       <Router history={createMemoryHistory()}>
         <Navbar />

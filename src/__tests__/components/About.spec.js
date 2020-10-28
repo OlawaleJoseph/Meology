@@ -5,7 +5,7 @@ import { createMemoryHistory } from 'history';
 import AboutPage from '../../pages/About';
 
 describe('About Page Snapshot', () => {
-  it('builds about page correctly with search and meallist', () => {
+  it('builds about page correctly', () => {
     const tree = renderer.create(
       <Router history={createMemoryHistory()}>
         <AboutPage />
