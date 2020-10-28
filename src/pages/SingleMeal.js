@@ -7,11 +7,12 @@ import setLoadingStatus from '../redux/actions/loadingAction';
 import { loadMeal, loadMealSuccess } from '../redux/actions/mealAction';
 
 const SingleMeal = ({
-  Meal, Loading, setLoadingStatus, loadMeal,
+  Meal, Loading, setLoadingStatus, loadMeal, loadMealSuccess
 }) => {
   const { id } = useParams();
 
   React.useEffect(() => {
+    loadMealSuccess({});
     setLoadingStatus(true);
     loadMeal(id);
     setLoadingStatus(false);
