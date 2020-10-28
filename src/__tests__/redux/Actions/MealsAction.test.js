@@ -2,7 +2,7 @@ import * as types from '../../../redux/actions/actionTypes';
 import * as MealsAction from '../../../redux/actions/mealsAction';
 
 describe('Meals Action Creator', () => {
-  it('should create a SET_MEALs action', () => {
+  it('should create a SET_MEALS action', () => {
     // arrange
     const meals = null;
     const expectedAction = { type: types.SET_MEALS, meals };
