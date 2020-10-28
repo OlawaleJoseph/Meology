@@ -1,10 +1,10 @@
 import React from 'react';
-import SearchForm from '../components/SearchForm';
+import ConnectedSearchForm from '../components/SearchForm';
 import MealList from '../components/MealList';
 
 const Home = () => (
   <main>
-    <SearchForm />
+    <ConnectedSearchForm />
     <MealList />
   </main>
 );
