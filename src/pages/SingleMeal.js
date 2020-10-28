@@ -17,11 +17,11 @@ const SingleMeal = ({
     setLoadingStatus(false);
   }, [id]);
 
-  if (Loading) return <LoadingBar />;
+  if (Loading
+    || (Object.keys(Meal).length === 0 && Meal.constructor === Object)) return <LoadingBar />;
 
-  if (!Meal) {
-    return <h2 className="section-title">no meal to display</h2>;
-  }
+  if (!Meal) return <h2 className="section-title">no meal to display</h2>;
+
   const {
     name,
     image,
