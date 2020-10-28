@@ -4,8 +4,8 @@ import { Router } from 'react-router-dom';
 import { createMemoryHistory } from 'history';
 import ErrorPage from '../../pages/Error';
 
-describe('Home Page Snapshot', () => {
-  it('builds home page correctly with search and meallist', () => {
+describe('Error Page Snapshot', () => {
+  it('builds error page correctly', () => {
     const tree = renderer.create(
       <Router history={createMemoryHistory()}>
         <ErrorPage />
