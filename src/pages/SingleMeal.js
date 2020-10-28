@@ -7,7 +7,7 @@ import setLoadingStatus from '../redux/actions/loadingAction';
 import { loadMeal, loadMealSuccess } from '../redux/actions/mealAction';
 
 const SingleMeal = ({
-  Meal, Loading, setLoadingStatus, loadMeal, loadMealSuccess
+  Meal, Loading, setLoadingStatus, loadMeal, loadMealSuccess,
 }) => {
   const { id } = useParams();
 
@@ -84,6 +84,7 @@ SingleMeal.propTypes = {
   Loading: PropTypes.bool.isRequired,
   setLoadingStatus: PropTypes.func.isRequired,
   loadMeal: PropTypes.func.isRequired,
+  loadMealSuccess: PropTypes.func.isRequired,
 };
 
 const mapStateToProps = ({ Meal, Loading }) => ({ Meal, Loading });
