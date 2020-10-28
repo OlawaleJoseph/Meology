@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import SearchTerm from '../redux/actions/searchTermAction';
 
-const SearchForm = ({ setSearchTerm }) => {
+const searchForm = ({ setSearchTerm }) => {
   const searchValue = React.useRef('');
   React.useEffect(() => {
     searchValue.current.focus();
@@ -33,7 +33,7 @@ const SearchForm = ({ setSearchTerm }) => {
   );
 };
 
-SearchForm.propTypes = {
+searchForm.propTypes = {
   setSearchTerm: PropTypes.func.isRequired,
 };
 
@@ -41,4 +41,4 @@ const mapDispatchToProps = dispatch => ({
   setSearchTerm: term => dispatch(SearchTerm(term)),
 });
 
-export default connect(null, mapDispatchToProps)(SearchForm);
+export default connect(null, mapDispatchToProps)(searchForm);
