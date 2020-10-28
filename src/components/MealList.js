@@ -46,9 +46,13 @@ const MealList = ({
   );
 };
 
+MealList.defaultProps = {
+  Meals: null,
+};
+
 MealList.propTypes = {
   SearchTerm: PropTypes.string.isRequired,
-  Meals: PropTypes.arrayOf(PropTypes.object).isRequired,
+  Meals: PropTypes.arrayOf(PropTypes.object) || null,
   Loading: PropTypes.bool.isRequired,
   setLoadingStatus: PropTypes.func.isRequired,
   loadMeals: PropTypes.func.isRequired,
