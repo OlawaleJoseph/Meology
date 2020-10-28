@@ -19,7 +19,7 @@ export function loadMeals(searchTerm) {
         });
         dispatch(loadMealsSuccess(newMeals));
       } else {
-        dispatch(loadMealsSuccess([]));
+        dispatch(loadMealsSuccess(null));
       }
     } catch (error) {
       // eslint-disable-next-line no-console
