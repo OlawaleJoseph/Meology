@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import SearchTerm from '../redux/actions/searchTermAction';
 
-const searchForm = ({ setSearchTerm }) => {
+export const searchForm = ({ setSearchTerm }) => {
   const searchValue = React.useRef('');
   React.useEffect(() => {
     searchValue.current.focus();
