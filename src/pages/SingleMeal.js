@@ -87,6 +87,6 @@ SingleMeal.propTypes = {
 
 const mapStateToProps = ({ Meal, Loading }) => ({ Meal, Loading });
 
-const mapDispatchToProps = { setLoadingStatus, loadMeal };
+const mapDispatchToProps = { setLoadingStatus, loadMeal, loadMealSuccess };
 
 export default connect(mapStateToProps, mapDispatchToProps)(SingleMeal);
