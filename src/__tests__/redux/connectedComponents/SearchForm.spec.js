@@ -11,7 +11,7 @@ function renderSearchForm() {
   return render(<SearchForm setSearchTerm={defaultProps.setSearchTerm} />);
 }
 describe('SearchForm Connected Component', () => {
-  it('should render search form', () => {
+  it('should render search form correctly', () => {
     const { getByText } = renderSearchForm();
     getByText('search your favorite meal');
   });
