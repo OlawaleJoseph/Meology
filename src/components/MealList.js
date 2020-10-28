@@ -6,7 +6,7 @@ import setLoadingStatus from '../redux/actions/loadingAction';
 import { loadMeals } from '../redux/actions/mealsAction';
 import Meal from './Meal';
 
-const MealList = ({
+export const MealList = ({
   Meals,
   Loading,
   SearchTerm,
