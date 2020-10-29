@@ -1,70 +1,106 @@
-# Getting Started with Create React App
+<h1 align="center">
+  Meology
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<strong>MEOLOGY</strong> retrieves data from <strong>The Meal DB</strong> API. You can get to view a comprehensive list of meals based on your search Term and can also view the full details of each meal by clicking on the details. It is built using <strong>React</strong> and also utilizes <strong>Redux</strong>.
 
-## Available Scripts
+**Home Page**
 
-In the project directory, you can run:
+<p align="center">
+  <img src="./Home.png">
+</p>
 
-### `yarn start`
+**About Page**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p align="center">
+  <img src="./About.png">
+</p>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+**Single Meal Page**
 
-### `yarn test`
+<p align="center">
+  <img src="./SingleMeal.png">
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+## live demo
+[Meology](https://somoye-meology.netlify.app)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Features
+- A list of food menu from different countries .
+- You can get to view a comprehensive list of meals based on your search Term.
+- When the details button of item in the menu is clicked, the full details will be displayed.
+- You can navigate back to the home page and about page.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Production Dependencies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+| **Dependency**   | **Use**                                              |
+| ---------------- | ---------------------------------------------------- |
+| prop-types       | Declare types for props passed into React components |
+| react            | React library                                        |
+| react-toastify   | Display messages to the user                         |
+| react-dom        | React library for DOM rendering                      |
+| react-redux      | Connects React components to Redux                   |
+| react-router-dom | React library for routing                            |
+| redux            | Library for unidirectional data flows                |
+| redux-thunk      | Async redux library                                  |
 
-### `yarn eject`
+### Development Dependencies
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+| **Dependency**                  | **Use**                                                          |
+| ------------------------------- | ---------------------------------------------------------------- |
+| babel-eslint                    | Lint modern JavaScript via ESLint                                |
+| eslint                          | Lints JavaScript                                                 |
+| eslint-plugin-react-hooks       | Adds additional React-hooks-related rules to ESLint              |
+| eslint-plugin-import            | Advanced linting of ES6 imports                                  |
+| eslint-plugin-react             | Adds additional React-related rules to ESLint                    |
+| fetch-mock                      | Mock fetch calls                                                 |
+| jest                            | Automated testing framework                                      |
+| node-fetch                      | Make HTTP calls via fetch using Node - Used by fetch-mock        |
+| react-test-renderer             | Render React components for testing                              |
+| @testing-library                | Test React components                                            |
+| redux-immutable-state-invariant | Warn when Redux state is mutated                                 |
+| redux-mock-store                | Mock Redux store for testing                                     |
+| stylelint                       | Lints Css                                                        |
+| stylelint-config-standard       | Advanced linting configoration for css                           |
+| stylelint-csstree-validator     | Advanced linting validation for css                              |
+| stylelint-scss                  | Adds additional SCSS-related rules to StyleLint                  |
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Prerequisites
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Node
+- Npm
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Setup
 
-## Learn More
+- git clone `https://github.com/somoye123/Meology`
+- cd Meology
+- npm install
+- npm start
+- **Install [React developer tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en) and [Redux Dev Tools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en)** in Chrome
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Author
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+👤 **Somoye Ayotunde**
 
-### Code Splitting
+- Github: [@somoye123](https://github.com/somoye123)
+- Twitter: [@ayotunde_197](https://twitter.com/ayotunde_197)
+- LinkedIn: [somoye-ayotunde](https://www.linkedin.com/in/somoye-ayotunde)
+- Mail: [somoye.ayotunde@gmail.com](somoye.ayotunde@gmail.com)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Contributions, issues and feature requests are welcome!
 
-### Making a Progressive Web App
+Feel free to check the [issues page](https://github.com/somoye123/Meology/issues).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Show your support
 
-### Advanced Configuration
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Acknowledgments
+  - Microverse
+  - You can access all the design info (color, typography, layouts) in this link:
+  - [Design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs))
+  - Design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio)
