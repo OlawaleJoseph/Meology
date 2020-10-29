@@ -1,0 +1,247 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Page Snapshot builds home page correctly with search and meallist 1`] = `
+<header
+  className="navbar"
+>
+  <nav
+    className="nav-center"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <img
+        alt="Meology logo"
+        className="logo"
+        src="logo.png"
+      />
+    </a>
+    <ul
+      className="nav-links"
+    >
+      <li>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          home
+        </a>
+      </li>
+      <li>
+        <a
+          href="/about"
+          onClick={[Function]}
+        >
+          about
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+`;
+
+exports[`Navbar Snapshot builds home page correctly with search and meallist 1`] = `
+<header
+  className="navbar"
+>
+  <nav
+    className="nav-center"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <img
+        alt="Meology logo"
+        className="logo"
+        src="logo.png"
+      />
+    </a>
+    <ul
+      className="nav-links"
+    >
+      <li>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          home
+        </a>
+      </li>
+      <li>
+        <a
+          href="/about"
+          onClick={[Function]}
+        >
+          about
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+`;
+
+exports[`Navbar Snapshot builds load correctly 1`] = `
+<header
+  className="navbar"
+>
+  <nav
+    className="nav-center"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <img
+        alt="Meology logo"
+        className="logo"
+        src="logo.png"
+      />
+    </a>
+    <ul
+      className="nav-links"
+    >
+      <li>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          home
+        </a>
+      </li>
+      <li>
+        <a
+          href="/about"
+          onClick={[Function]}
+        >
+          about
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+`;
+
+exports[`Navbar Snapshot builds loader correctly 1`] = `
+<header
+  className="navbar"
+>
+  <nav
+    className="nav-center"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <img
+        alt="Meology logo"
+        className="logo"
+        src="logo.png"
+      />
+    </a>
+    <ul
+      className="nav-links"
+    >
+      <li>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          home
+        </a>
+      </li>
+      <li>
+        <a
+          href="/about"
+          onClick={[Function]}
+        >
+          about
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+`;
+
+exports[`Navbar Snapshot builds navbar correctly 1`] = `
+<header
+  className="navbar"
+>
+  <nav
+    className="nav-center"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <img
+        alt="Meology logo"
+        className="logo"
+        src="logo.png"
+      />
+    </a>
+    <ul
+      className="nav-links"
+    >
+      <li>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          home
+        </a>
+      </li>
+      <li>
+        <a
+          href="/about"
+          onClick={[Function]}
+        >
+          about
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+`;
+
+exports[`Navbar Snapshot builds navbar correctly with search and meallist 1`] = `
+<header
+  className="navbar"
+>
+  <nav
+    className="nav-center"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <img
+        alt="Meology logo"
+        className="logo"
+        src="logo.png"
+      />
+    </a>
+    <ul
+      className="nav-links"
+    >
+      <li>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          home
+        </a>
+      </li>
+      <li>
+        <a
+          href="/about"
+          onClick={[Function]}
+        >
+          about
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+`;
