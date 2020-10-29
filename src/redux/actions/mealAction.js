@@ -1,3 +1,4 @@
+import { toast } from 'react-toastify';
 import * as types from './actionTypes';
 import * as mealApi from '../../api/mealApi';
 
@@ -39,8 +40,7 @@ export function loadMeal(id) {
         dispatch(loadMealSuccess(null));
       }
     } catch (error) {
-      // eslint-disable-next-line no-console
-      console.log(error);
+      toast.error(`Whoops!, ${error.message} occured`);
     }
   };
 }
