@@ -38,6 +38,7 @@
 | ---------------- | ---------------------------------------------------- |
 | prop-types       | Declare types for props passed into React components |
 | react            | React library                                        |
+| react-toastify   | Display messages to the user                         |
 | react-dom        | React library for DOM rendering                      |
 | react-redux      | Connects React components to Redux                   |
 | react-router-dom | React library for routing                            |
